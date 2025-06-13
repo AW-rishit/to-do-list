@@ -1,0 +1,99 @@
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #1F2937;
+  color: aliceblue;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1{
+  text-align: center;
+  font-size: 4rem;
+  margin-left: -10px;
+}
+
+.input-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-container input{
+  height: 40px;
+  width: 300px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.input-container button{
+  background-color: rgb(36, 190, 41);
+  border: none;
+  border-radius: 5px;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px 30px;
+  margin: 0 10px;
+}
+
+.tasks{
+  display: flex;
+  justify-content: center;
+}
+
+.tasks ol{
+  list-style-type: none;
+}
+
+.ol-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list-item{
+  color: black;
+  background-color: white;
+  height: 80px;
+  width: 800px;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 9px;
+  /* margin-left: auto; */
+}
+
+.btn-container{
+  display: flex;
+  gap: 12px;
+  margin-right: 40px;
+}
+
+.delete-btn{
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 80px;
+  font-size: 20px;
+  color: white;
+}
+
+.btn{
+  background: none;
+  border: none;
+  font-size: 35px;
+}
+
+
+
+
